@@ -1,0 +1,43 @@
+
+  .custom-container {
+    background-color: #00008B; 
+    color: white;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+  .custom-day{
+    font-size: 7rem;
+    margin-bottom: 20px; 
+  }
+  .custom-day-part{
+    font-size: 3rem;
+    margin-bottom: 20px; 
+  }
+  
+  .custom-hour {
+    font-size: 8rem; 
+    margin-bottom: 20px; 
+  }
+
+.custom-date-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px; 
+    box-sizing: border-box;
+  }
+  
+  .hebrew-date {
+    font-size: 2rem;
+    text-align: right;
+    direction: rtl;
+  }
+  
+  .gregorian-date {
+    font-size: 2rem;
+    text-align: left;
+  }

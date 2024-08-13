@@ -1,0 +1,11 @@
+<div class="custom-container">
+  <div class="text-center">
+    <div class="custom-day">{{ hebrewDay }}</div>
+    <div class="custom-day-part">{{ dayPart }}</div>
+    <div class="custom-hour">{{ currentDateTime | date: 'HH:mm' }}</div>
+    <div class="custom-date-container">
+      <div class="hebrew-date">{{ hebrewDate }}</div>
+      <div class="gregorian-date">{{ currentDateTime | date: 'yyyy-MM-dd' }}</div>
+    </div>
+  </div>
+</div>
